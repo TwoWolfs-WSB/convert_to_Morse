@@ -39,8 +39,10 @@ def convert_table_to_Morse(list):
     for key in list:
         if key in dict.keys():
             beep(dict[key])
+            time.sleep(1)
         else:
             time.sleep(2)
+
 
 def beep(v):
     sign = list(v)
@@ -48,8 +50,8 @@ def beep(v):
         if a == "0":
             os.system('play -nq -t alsa synth {} sine {}'.format(duration_short, freq))
             print(".")
-            time.sleep(0.3)
+            time.sleep(0.5)
         elif a == "1":
             os.system('play -nq -t alsa synth {} sine {}'.format(duration_long, freq))
             print("-")
-            time.sleep(0.3)
+            time.sleep(0.5)
