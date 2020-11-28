@@ -1,0 +1,9 @@
+1. sudo apt install gitsome
+2. sudo apt install git
+3. git clone https://github.com/TwoWolfs-WSB/convert_to_Morse
+4. sudo apt-get update 
+5. sudo apt-get install python3
+6. sudo apt-get update
+7. sudo apt-get upgrade
+8. sudo apt install python3-pip
+9. sudo apt install sox
